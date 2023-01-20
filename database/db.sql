@@ -18,3 +18,7 @@ LOAD DATA LOCAL INFILE 'restaurantes.csv'
 INTO TABLE Restaurants
 FIELDS TERMINATED BY ','
 IGNORE 1 ROWS;
+
+SELECT *, ( 6371 * acos( cos( radians(19.44005705) ) * cos( radians( lat ) ) * cos( radians( lng ) - radians(-99.1270471) ) + sin( radians(19.44005705) ) * sin( radians( lat ) ) ) ) AS distance 
+FROM Restaurants
+HAVING distance < 5;

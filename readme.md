@@ -12,12 +12,13 @@
 ### API Endpoints
 | HTTP Verbs | Endpoints | Action |
 | --- | --- | --- |
+| Task 1 |
 | GET | /api/restaurantes/ | Get all restaurants in the DB |
 | GET | /api/restaurantes/:id | Get only one restaurant |
 | POST | /api/restaurantes/ | Add a new restaurant to the DB |
 | PUT | /api/restaurantes/ | To edit the details of a single restaurant |
 | DELETE | /api/restaurantes/:id | To delete a single restaurant |
-Task 2 
+| Task 2 |
 | GET | /restaurants/statistics?latitude&longitude&radius | Return statitics depending on the latitude, longitude and radius  |
 ### Technologies Used
 * [NodeJS](https://nodejs.org/) 
