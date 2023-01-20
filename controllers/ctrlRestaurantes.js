@@ -63,7 +63,7 @@ const deleteRestaurante = async ( req, res ) => {
         res.status(500).json({ message: "An error has occured", error: e });
     }
 }
-// Se retornan todos las funciones anteriores
+// Esport all functions
 module.exports = {
     getRestauranteByID,
     getAllRestaurantes,
