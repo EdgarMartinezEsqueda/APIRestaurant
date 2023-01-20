@@ -10,7 +10,6 @@
 * Run npm start:dev to start the application.
 * Connect to the API using Postman, RapidAPI, etc. on port 3000.
 ### API Endpoints
-Task 1
 | HTTP Verbs | Endpoints | Action |
 | --- | --- | --- |
 | GET | /api/restaurantes/ | Get all restaurants in the DB |
