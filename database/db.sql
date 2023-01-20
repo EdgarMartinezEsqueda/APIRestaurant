@@ -3,9 +3,9 @@ CREATE TABLE Restaurants (
     id VARCHAR(36) NOT NULL PRIMARY KEY,
     rating CHAR(1) NOT NULL,    -- 0-5 -> it's only  digit, so i think this is the best way to do it
     name VARCHAR(255) NOT NULL,
-    site VARCHAR(255) NOT NULL,
-    email VARCHAR(255) NOT NULL,
-    phone VARCHAR(32) NOT NULL,
+    site VARCHAR(255),
+    email VARCHAR(255),
+    phone VARCHAR(32),
     street VARCHAR(255) NOT NULL,
     city VARCHAR(255) NOT NULL,
     state VARCHAR(255) NOT NULL,
